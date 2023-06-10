@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice_Cream</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        max-width: 800px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+        padding-top: 50px;
+        background: #f2beff;
+      }
+      .heading {
+        height: 400px;
+        width: 670px;
+        margin: 50px auto;
+        background-image: linear-gradient(90deg, #f2bdbc, #ff4081);
+        box-sizing: content-box;
+        padding-top: 35px;
+        border-radius: 200px 0;
+        color: #fbfbfb;
+        font-size: 15px;
+        letter-spacing: 0.2em;
+        text-align: center;
+      }
+
+      .heading-text {
+        margin-top: -90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .heading-text h1 {
+        background: #ee3ad9;
+        width: 250px;
+        height: 60px;
+        color: rgb(231, 229, 210);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        padding-top: 30px;
+        font-size: 25px;
+        text-transform: uppercase;
+        border-radius: 80px 0 80px 30px;
+        box-shadow: 0px 10px 10px 0px rgba(2, 1, 1, 0.5);
+      }
+      .heading-img {
+        width: 50%;
+        width: 60px;
+        height: 100px;
+        margin-top: -40px;
+        transform: rotate(-45deg);
+      }
+      .heading-img2 {
+        width: 50%;
+        width: 60px;
+        height: 100px;
+        margin-top: -40px;
+        transform: rotate(45deg);
+      }
+      .row {
+        display: flex;
+        margin: 30px;
+        justify-content: center;
+        align-items: center;
+      }
+      .left-side {
+        width: 50%;
+      }
+      .paragraph {
+        text-align: justify;
+        color: rgb(110, 110, 107);
+        padding-left: 30px;
+        line-height: 25px;
+        font-size: 18px;
+      }
+      .right-side img {
+        width: 250px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 40px;
+      }
+      .ice-cream-list {
+        background: #f0bcfe;
+        margin: 20px 30px;
+      }
+      h2 {
+        text-align: center;
+        padding-bottom: 80px;
+        font-size: 25px;
+      }
+      .ice-cream-types {
+        display: flex;
+        padding-bottom: 40px;
+      }
+      .ice-cream-item {
+        border-radius: 50px 50px 10px 10px;
+        width: 130px;
+        height: 150px;
+        margin: 0 10px;
+        color: white;
+        transition: all 0.5s ease-in-out;
+      }
+      .ice-cream-item:hover {
+        background-color: rgb(154, 255, 1);
+        cursor: pointer;
+        color: black;
+      }
+      .ice-cream-text {
+        text-align: center;
+        line-height: 25px;
+        padding-top: 40px;
+      }
+      .ice-cream-item img {
+        border-radius: 50%;
+        margin: -40px 13px;
+        width: 100px;
+        height: 100px;
+        object-position: center;
+        transition: 0.5s;
+      }
+      .ice-cream-item:hover img {
+        transform: translateY(-20px);
+      }
+      .ice-cream-image1 {
+        background: #b79b74;
+      }
+      .ice-cream-image2 {
+        background: #cf6ca2;
+      }
+      .ice-cream-image3 {
+        background: #bc8c66;
+      }
+      .ice-cream-image4 {
+        background: #4fbcf6;
+      }
+      .ice-cream-image5 {
+        background: #ea6a69;
+      }
+      button {
+        height: 50px;
+        width: 150px;
+        border: none;
+        border-radius: 20px;
+        background: #ff006a;
+        color: white;
+
+        margin: 0 auto;
+        display: block;
+      }
+      button:hover {
+        background-color: rgb(2, 251, 255);
+        box-shadow: 0 0 10px #02fdfd, 0 0 40px#02fdfd, 0 0 80px #02fdfd;
+        color: #30091f;
+      }
+      .footer {
+        text-align: center;
+        color: gray;
+      }
+      span {
+        color: #ea6a69;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <div class="heading-text">
+          <img
+            src="https://i.pinimg.com/originals/bb/5f/4b/bb5f4b9cade630dae6d6428ba44328cc.png"
+            alt=""
+            class="heading-img"
+          />
+          <h1><strong>Ice-Cream</strong></h1>
+          <img
+            src="https://i.pinimg.com/originals/bb/5f/4b/bb5f4b9cade630dae6d6428ba44328cc.png"
+            alt=""
+            class="heading-img2"
+          />
+        </div>
+        <div class="row">
+          <div class="left-side">
+            <p class="paragraph">
+              Ice cream is a frozen dessert, it is typically made from milk or
+              cream and is flavoured with a sweetener, either sugar or an
+              alternative, and a spice, such as cocoa or vanilla, or with fruit
+              such as strawberries or peaches.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Ice_cream" target="_blank"
+              >Ice-cream - Wikipedia</a
+            >
+          </div>
+          <div class="right-side">
+            <img
+              src="https://i.fltcdn.net/contents/1549/original_1438099132385_h3oorjxlxr.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="ice-cream-list">
+        <h2>🍧Ice-Cream list🍨</h2>
+        <div class="ice-cream-types">
+          <div class="ice-cream-item ice-cream-image1">
+            <img
+              class=""
+              src="https://preppykitchen.com/wp-content/uploads/2021/04/Hot-Fudge-Sundae-Feature.jpg"
+              alt=""
+            />
+            <p class="ice-cream-text">
+              <em>ice-cream<br />chocolate-fudge </em>
+            </p>
+          </div>
+          <div class="ice-cream-item ice-cream-image2">
+            <img
+              class=""
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+            <p class="ice-cream-text">
+              <em
+                >ice-cream <br />
+                colorful rolled</em
+              >
+            </p>
+          </div>
+
+          <div class="ice-cream-item ice-cream-image3">
+            <img
+              class=""
+              src="https://www.citypng.com/public/uploads/preview/ice-cream-cones-chocolate-milk-and-strawberry-11653426349thitgkbdsa.png"
+              alt=""
+            />
+            <p class="ice-cream-text">
+              <em
+                >ice-cream <br />
+                cone</em
+              >
+            </p>
+          </div>
+
+          <div class="ice-cream-item ice-cream-image4">
+            <img
+              class=""
+              src="https://cdn.diys.com/wp-content/uploads/2017/11/Ice-cream-cone-cupcakes.jpg"
+              alt=""
+            />
+            <p class="ice-cream-text">
+              <em
+                >ice-cream <br />
+                cupcake</em
+              >
+            </p>
+          </div>
+
+          <div class="ice-cream-item ice-cream-image5">
+            <img
+              class=""
+              src="https://c4.wallpaperflare.com/wallpaper/820/507/743/strawberry-ice-cream-hd-wallpaper-preview.jpg"
+              alt=""
+            />
+            <p class="ice-cream-text">
+              <em
+                >ice-cream <br />
+                strawberries</em
+              >
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <button id="button">Buy ice-cream</button>
+      <p class="footer">coded by <span>May</span></p>
+    </div>
+    <script>
+      function buyButton() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        if (name.length >= 0 && email.length >= 15) {
+          alert(
+            "Thank You " +
+              name +
+              "! we will be in touch by email, meanwhile have lot of ice-cream!"
+          );
+        } else {
+          alert("Please, fill again");
+        }
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", buyButton);
+    </script>
+  </body>
+</html>
